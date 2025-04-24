@@ -12,7 +12,18 @@ export default function Home() {
     >
       <Navegador texto="Estiloso" destino="/estiloso" />
       <Navegador texto="Exemplo" destino="/exemplo" cor="#9400d3" />
-      <Navegador texto="JSX" destino="/jsx" cor="crimson" />
+      <Navegador texto="JSX" destino="/jsx" cor="crimson" />{" "}
+      <Navegador texto="Navegação #01" destino="/navegacao" cor="#956d32" />
+      <Navegador
+        texto="Navegação #02"
+        destino="/cliente/sp2/123"
+        cor="#489b18"
+      />
+      <Navegador
+        texto="Componente com Estado"
+        destino="/estado"
+        cor="#dd2222"
+      />
     </div>
   );
 }
