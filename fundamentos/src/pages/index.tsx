@@ -24,6 +24,12 @@ export default function Home() {
         destino="/estado"
         cor="#dd2222"
       />
+      <Navegador
+        texto="Integração com API"
+        destino="/integracao_1"
+        cor="#8eafd4ec"
+      />
+      <Navegador texto="Conteúdo Estático" destino="/estatico" cor="#8c114a" />
     </div>
   );
 }
